@@ -2,164 +2,207 @@
  *  by Mia Kotalik - http://miakotalik.com/
  */
 
- .test-text  {
-     font-size: 1.5rem;
-     padding-bottom: 1rem;
- }
+.test-text {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
 
- .quote {
-     color: palevioletred;
-     font-weight: bold;
- }
- .testimonials-text {
-     padding-top: 10rem;
-     padding-left: 5rem;
-     padding-right: 5rem;
- }
- 
- .name{
+.quote {
+    color: palevioletred;
+    font-weight: bold;
+}
+.testimonials-text {
+    padding-top: 10rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.name {
     font-weight: bold;
     font-size: 1.5rem;
-     color: palevioletred;
- }
- .position {
     color: palevioletred;
- }
- .carousel-item.active,
- .carousel-item-next,
- .carousel-item-prev{
-     display:block;
- }
+}
+.position {
+    color: palevioletred;
+}
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+    display: block;
+}
 
- #contactForm {
-     padding-top: 3rem;
- }
- .contact-section {
-     padding-top: 7rem;
-     padding-bottom: 7rem;
- }
- .newsletter-text {
-     padding-top: 7rem;
-     padding-bottom: 7rem;
- }
+#contactForm {
+    padding-top: 3rem;
+}
+.contact-section {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.newsletter-text {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
 .quick-links {
     padding-left: 5rem;
 }
- .quick-link {
-     color: white !important;
-     text-decoration: underline;
- }
- .counter {
-     font-size: 3rem;
- }
+.quick-link {
+    color: white !important;
+    text-decoration: underline;
+}
+.counter {
+    font-size: 3rem;
+}
 
- .img-proj:hover {
+.img-proj:hover {
     transform: scale(1.1);
- }
- .img-proj {
-     height: 50% !important;
-     width: 50% !important;
-     padding-bottom: .5rem;
- }
- .passion-img:hover {
+}
+.img-proj {
+    height: 50% !important;
+    width: 50% !important;
+    padding-bottom: 0.5rem;
+}
+.passion-img:hover {
     transform: scale(1.1);
- }
- .numbers {
-     padding-bottom: 10rem;
- }
- .background-blue {
-    background-color: #29BAE4;
- }
- .project-list {
-     padding-bottom: 10rem;
- }
- .projects-text {
-     padding-top: 10rem;
-     padding-left: 5rem;
-     padding-right: 5rem;
-     padding-bottom: 5rem;
+}
+.numbers {
+    padding-bottom: 10rem;
+}
+.background-blue {
+    background-color: #29bae4 !important;
+}
+.project-list {
+    padding-bottom: 10rem;
+}
+.projects-text {
+    padding-top: 10rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+}
+.projects-subtext {
+    color: gray;
+}
 
- }
- .projects-subtext {
-     color: gray;
- }
-
- .projects-subtext-header {
+.projects-subtext-header {
     padding-left: 10rem;
     padding-right: 10rem;
 }
- .pink-bold{
-     color: palevioletred;
-
- }
- .btn-primary,
- .btn-primary:hover,
- .btn-primary:active,
- .btn-primary:visited,
- .btn-primary:focus {
-     color: palevioletred;
-     background-color: #FCE7F1 !important;
-     border-color: #FCE7F1 !important;
- }
- .about-text {
-     font-size: 2rem;
-     padding-top: 10rem;
-     line-height: 3rem;
-     padding-left: 5rem;
-     padding-right: 5rem;
- }
-
- .join-button{
-     padding-top:3rem;
-     padding-bottom: 10rem;;
- }
- .gray-section {
-     background-color: aliceblue;;
- }
-
- .background-white {
-     background-color:white;
- }
-
- .header-btns {
-    z-index: 5;
-    position: relative;
- }
-
- .header {
-     padding-top: 20rem;
- }
- .header-text {
-    font-family: 'Work Sans', sans-serif;
+.pink-bold {
+    color: palevioletred;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    color: palevioletred;
+    background-color: #fce7f1 !important;
+    border-color: #fce7f1 !important;
+}
+.about-text {
     font-size: 2rem;
- }
- .header-btns {
-     padding-top: 3rem;
+    padding-top: 10rem;
+    line-height: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.mission-text {
+    font-size: 3rem;
+    padding-bottom: 7rem;
 }
 
- .empower-btn {
-     padding-right: 1rem;
+.box {
+    width: 20rem;
+    height: 20rem;
+}
+.box-area {
+    padding-bottom: 3rem;
+}
+.pink {
+    background: #fa939b;
+}
+.green {
+    background: #46db4e;
+}
+.orange {
+    background: #ffb35f;
+}
+.blue {
+    background: #438bcc !important;
+}
 
- }
+.text-blue {
+    color: #438bcc !important;
+}
 
- .workshops-btn {
-     padding-left: 1rem;
+.background-pink {
+    background: #ffddcf;
+}
+.background-darkpink {
+    background: #f09795;
+}
+.para {
+    /* The image used */
+    background-image: url("../img/aboutPara.png");
 
- }
+    /* Set a specific height */
+    min-height: 400px;
 
- .font-white {
-     color: white;
- }
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
- .heading {
-     z-index: 1;
- }
+.join-button {
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+}
+.gray-section {
+    background-color: aliceblue;
+}
 
- .header-text {
-     font-size: 5rem;
-     color: white;
- }
+.background-white {
+    background-color: white;
+}
 
+.header-btns {
+    z-index: 5;
+    position: relative;
+}
+
+.header {
+    padding-top: 20rem;
+}
+.header-text {
+    font-family: "Work Sans", sans-serif;
+    font-size: 2rem;
+}
+.header-btns {
+    padding-top: 3rem;
+}
+
+.empower-btn {
+    padding-right: 1rem;
+}
+
+.workshops-btn {
+    padding-left: 1rem;
+}
+
+.font-white {
+    color: white;
+}
+
+.heading {
+    z-index: 1;
+}
+
+.header-text {
+    font-size: 5rem;
+    color: white;
+}
 
 .nav-bar-social-icons {
     padding-left: 2rem;
@@ -176,8 +219,8 @@
 }
 
 .navbar.scrolled {
-    background: rgb(240,151,149); /* IE */
-    background: rgba(240,151,149 0.78); /* NON-IE */
+    background: rgb(240, 151, 149); /* IE */
+    background: rgba(240, 151, 149 0.78); /* NON-IE */
 }
 
 .navbar {
@@ -198,16 +241,15 @@ a.nav-link {
 }
 
 .background-gray {
-    background-color: #F8FAFF;
+    background-color: #f8faff;
 }
 
 .text-white {
     color: white !important;
 }
 
-
-.jumbotron{
-    background-image: url(../img/jumbo-bg.JPG); no-repeat center center; 
+.jumbotron {
+    background-image: url(../img/jumbo-bg.JPG);
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -246,39 +288,44 @@ a.nav-link {
     background-image: linear-gradient(to bottom right, #ef7bb0, #f0ae7d);
     color: white;
     text-align: center;
-  }
+}
 
-  .footer-list {
+.background-gradient {
+    background-image: linear-gradient(to bottom right, #ef7bb0, #f0ae7d);
+}
+
+.footer-list {
     list-style-type: none;
-   }
+}
 
-   a.footer-list-text {
-    color: #A3826C;  
+a.footer-list-text {
+    color: #a3826c;
     text-decoration: underline;
-   }
+}
 
-   .footer-social-icon {
-       padding-right: .5rem;
-       color: white;
-       
-   }
+.footer-social-icon {
+    padding-right: 0.5rem;
+    color: white;
+}
 
 .footer-text {
     padding-top: 4rem;
 }
 
+footer.footer.background-blue {
+    padding-top: 5rem !important;
+}
+
 .navbar-toggler {
-    background-color: #A3826C !important;
-    border: 1px solid #A3826C !important;
+    background-color: #a3826c !important;
+    border: 1px solid #a3826c !important;
 }
 
 .navbar-toggler-icon {
     color: white !important;
 }
 
-
- .dropdown-menu.show {
-     background: #A3826C;
-     color: white;
+.dropdown-menu.show {
+    background: #a3826c;
+    color: white;
 }
-
